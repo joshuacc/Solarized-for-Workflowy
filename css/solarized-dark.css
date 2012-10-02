@@ -1,0 +1,21 @@
+#backgroundImage {
+  background: #073642; }
+
+.edge,
+.corner {
+  display: none; }
+
+.page.active {
+  background-color: #002b36;
+  color: #839496;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+
+#pageContainer {
+  font-family: Cambria, Georgia, serif; }
+
+.parentArrow {
+  color: #586e75; }
+
+.lastEdited {
+  color: #586e75; }
