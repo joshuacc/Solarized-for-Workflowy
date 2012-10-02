@@ -11,6 +11,6 @@ color scheme.
 
 ## Preview
 
-![Solarized Light](https://github.com/joshuacc/Solarized-for-Workflowy/blob/master/solarized-light-preview.png)
+![Solarized Light](https://raw.github.com/joshuacc/Solarized-for-Workflowy/master/solarized-light-preview.png)
 
-![Solarized Dark](https://github.com/joshuacc/Solarized-for-Workflowy/blob/master/solarized-dark-preview.png)
+![Solarized Dark](https://raw.github.com/joshuacc/Solarized-for-Workflowy/master/solarized-dark-preview.png)
