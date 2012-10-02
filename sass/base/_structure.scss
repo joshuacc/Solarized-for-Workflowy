@@ -14,15 +14,55 @@
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-#pageContainer {
-    font-family: Cambria, Georgia, serif;
-}
-
-.parentArrow {
+.parent > .name > .content,
+.parent > .name > .parentArrow {
     color: $content-secondary;
 }
 
-.lastEdited {
-    color: $content-emphasized;
+.selected { border-color: $content-secondary; }
+
+.children { border-color: $content-secondary; }
+
+.bullet {
+    background-color: $content;
+    color: $content-secondary;
+    &:hover {
+        background-color: $content;
+    }
 }
 
+.project.task > .name > .bullet,
+.project.open > .name > .bullet {
+    background-color: transparent;
+}
+
+.highlighted,
+.moving > .highlight,
+.highlighted > .highlight {
+    background-color: $bg-highlight;
+}
+
+#controlsLeft {
+    background-color: $bg-highlight;
+    border-color: $content-secondary;
+
+    .handle {
+        background-color: $bg-highlight;
+        border-color: $content-secondary;
+    }
+
+    a { color: inherit; }
+    hr { border-color: $content-secondary; }
+}
+
+/* Workflowy for Coders add on */
+
+.wikistyle,
+textarea.enhanced {
+    background: $bg-highlight;
+    border-color: $bg-highlight;
+    color: $content;
+    font-family: inherit;
+
+    a { color: $link; }
+}

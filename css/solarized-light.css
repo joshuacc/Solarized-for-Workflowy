@@ -11,11 +11,49 @@
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
 
-#pageContainer {
-  font-family: Cambria, Georgia, serif; }
-
-.parentArrow {
+.parent > .name > .content,
+.parent > .name > .parentArrow {
   color: #93a1a1; }
 
-.lastEdited {
-  color: #586e75; }
+.selected {
+  border-color: #93a1a1; }
+
+.children {
+  border-color: #93a1a1; }
+
+.bullet {
+  background-color: #657b83;
+  color: #93a1a1; }
+  .bullet:hover {
+    background-color: #657b83; }
+
+.project.task > .name > .bullet,
+.project.open > .name > .bullet {
+  background-color: transparent; }
+
+.highlighted,
+.moving > .highlight,
+.highlighted > .highlight {
+  background-color: #eee8d5; }
+
+#controlsLeft {
+  background-color: #eee8d5;
+  border-color: #93a1a1; }
+  #controlsLeft .handle {
+    background-color: #eee8d5;
+    border-color: #93a1a1; }
+  #controlsLeft a {
+    color: inherit; }
+  #controlsLeft hr {
+    border-color: #93a1a1; }
+
+/* Workflowy for Coders add on */
+.wikistyle,
+textarea.enhanced {
+  background: #eee8d5;
+  border-color: #eee8d5;
+  color: #657b83;
+  font-family: inherit; }
+  .wikistyle a,
+  textarea.enhanced a {
+    color: #268bd2; }
