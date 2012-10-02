@@ -16,13 +16,13 @@
   color: #586e75; }
 
 .selected {
-  border-color: #586e75; }
+  border-color: #073642; }
 
 .children {
-  border-color: #586e75; }
+  border-color: #073642; }
 
 .bullet {
-  background-color: #839496;
+  background-color: #073642;
   color: #586e75; }
   .bullet:hover {
     background-color: #839496; }

@@ -19,12 +19,12 @@
     color: $content-secondary;
 }
 
-.selected { border-color: $content-secondary; }
+.selected { border-color: $bg-highlight; }
 
-.children { border-color: $content-secondary; }
+.children { border-color: $bg-highlight; }
 
 .bullet {
-    background-color: $content;
+    background-color: $bg-highlight;
     color: $content-secondary;
     &:hover {
         background-color: $content;
